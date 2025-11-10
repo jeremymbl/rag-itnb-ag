@@ -183,30 +183,35 @@ python -m itnb_rag.chat
 This will start an interactive prompt where you can ask questions:
 
 ```
-Using bucket id: 12345
-Using LLM model: gpt-4 @ https://api.openai.com
+Looking up bucket 'itnb_website'...
+Found bucket: 22745
+Using bucket id: 22745
+Using LLM model: inference-llama4-maverick @ https://maas.ai-2.kvant.cloud
 
 ITNB RAG CLI — ask questions about the ingested ITNB content.
 Commands: /help /exit /quit /raw (shows raw combined context)
 
 itnb> What is ITNB's Sovereign Cloud?
 
-[1/2] Retrieved context length: 8,452 chars
+[1/2] Retrieved context length: 79,332 chars
 [2/2] Sending to LLM... (this may take a few seconds)
 
 --- Answer ---
-ITNB's Sovereign Cloud is a Swiss-based Infrastructure-as-a-Service (IaaS)
-platform designed for organizations requiring data sovereignty and compliance
-with Swiss regulations. It provides virtual machines, storage, and networking
-entirely within Swiss data centers, ensuring independence from foreign cloud
-providers.
+
+ITNB's Sovereign Cloud is a secure, Swiss-hosted infrastructure that ensures full data sovereignty, compliance, and high performance for sensitive workloads across various sectors, including artificial intelligence (AI), finance, healthcare, and government. It is designed to provide a reliable and secure infrastructure-as-a-service (IaaS) solution, with data centers located in Zurich and Basel, guaranteeing a 99.99% uptime. The Sovereign Cloud offers CPU and GPU computing, storage solutions, and networking capabilities, all tailored for sensitive workloads.
+
+Sources:
+- www.itnb.ch_en_solutions_industries_education-and-research.txt
+- www.itnb.ch_en_products-and-services_infrastructure-as-a-service_sovereign-cloud.txt
+
+--- End Answer ---
 
 Sources used:
- [1] Sovereign Cloud — https://www.itnb.ch/en/products-and-services/infrastructure-as-a-service/sovereign-cloud (score=0.94)
- [2] Safe, Secure, Swiss. — https://www.itnb.ch/en (score=0.81)
-
+ [1] Education and Research — https://www.itnb.ch/en/solutions/industries/education-and-research (score=560.0113)
+ [2] Sovereign Cloud — https://www.itnb.ch/en/products-and-services/infrastructure-as-a-service/sovereign-cloud (score=555.7248)
+ [3] Education and Research — https://www.itnb.ch/en/solutions/industries/education-and-research (score=544.65515)
 itnb> /exit
-Goodbye!
+Bye.
 ```
 
 ### Chat Commands
