@@ -73,8 +73,16 @@ The system follows a classic RAG (Retrieval-Augmented Generation) pattern:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+# HTTPS
+git clone https://github.com/jeremymbl/itnb-ag.git
 cd itnb-ag
+
+# Or with SSH
+git clone git@github.com:jeremymbl/itnb-ag.git
+cd itnb-ag
+
+# Or with GitHub CLI
+gh repo clone jeremymbl/itnb-ag
 ```
 
 2. Create and activate a virtual environment:
