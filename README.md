@@ -74,15 +74,15 @@ The system follows a classic RAG (Retrieval-Augmented Generation) pattern:
 1. Clone the repository:
 ```bash
 # HTTPS
-git clone https://github.com/jeremymbl/itnb-ag.git
-cd itnb-ag
+git clone https://github.com/jeremymbl/rag-itnb-ag.git
+cd rag-itnb-ag
 
 # Or with SSH
-git clone git@github.com:jeremymbl/itnb-ag.git
-cd itnb-ag
+git clone git@github.com:jeremymbl/rag-itnb-ag.git
+cd rag-itnb-ag
 
 # Or with GitHub CLI
-gh repo clone jeremymbl/itnb-ag
+gh repo clone jeremymbl/rag-itnb-ag
 ```
 
 2. Create and activate a virtual environment:
@@ -219,7 +219,7 @@ Goodbye!
 ## Project Structure
 
 ```
-itnb-ag/
+rag-itnb-ag/
 ├── itnb_rag/                   # Main Python package
 │   ├── __init__.py             # Package initialization
 │   ├── __main__.py             # CLI help/usage information
