@@ -1,5 +1,7 @@
 # ITNB RAG Pipeline
 
+> **Note:** This project was developed as part of the technical interview process for ITNB AG, demonstrating RAG implementation capabilities and understanding of their product ecosystem.
+
 A Retrieval-Augmented Generation (RAG) system for intelligent question-answering over ITNB website content. This pipeline crawls, indexes, and enables natural language interactions with information about ITNB's products, services, and solutions.
 
 ## About ITNB
