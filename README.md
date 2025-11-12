@@ -66,7 +66,7 @@ The system follows a classic RAG (Retrieval-Augmented Generation) pattern:
 ## Prerequisites
 
 - **Python 3.8+**
-- **GroundX API Key** - Sign up at [GroundX](https://www.groundx.ai/)
+- **GroundX API Key** - Sign up at [GroundX](https://docs.eyelevel.ai/documentation/fundamentals/welcome)
 - **OpenAI-Compatible LLM API** - Any OpenAI-compatible endpoint (OpenAI, ITNB MaaS, etc.)
 
 ## Installation
